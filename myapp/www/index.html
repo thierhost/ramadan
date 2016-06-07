@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Ramadan 2016</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src ="js/routing.js"></script>
+    <!-- chargement des factory  -->
+    <script type="text/javascript" src="js/factory/prayProvider.js"></script>
+    <!-- chargement des controllers  -->
+    <script type="text/javascript" src="js/controllers/homepageController.js"></script>
+  </head>
+  <body ng-app="ramadan">
+
+      <ion-nav-view>
+
+      </ion-nav-view>
+
+      <ion-tabs class="tabs-icon-top tabs-light tabs-stable fbnews xfade-in-not-out">
+
+        <ion-tab title="Calendrier" icon="icon ion-calendar" href="#/">
+
+        </ion-tab>
+
+        <ion-tab title="Aujourd'hui" icon="icon ion-star" href="#/today">
+
+        </ion-tab>
+
+        <ion-tab title="Nafila" icon="icon ion-ios-moon" href="#/nafila">
+
+        </ion-tab>
+
+        <ion-tab title="A propos" icon="icon ion-ios-lightbulb" href="#/apropos">
+
+        </ion-tab>
+
+
+      </ion-tabs>
+  </body>
+</html>

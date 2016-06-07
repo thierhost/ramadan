@@ -1,0 +1,30 @@
+<ion-header-bar align-title="center" class="bar-calm">
+  <h1 class="title">Ramadan 2016 - Sénégal</h1>
+</ion-header-bar>
+<ion-view>
+  <ion-content padding="false" overflow-scroll="true">
+    <div class="list card">
+
+      <div class="item item-avatar">
+        <img src="img/nafila.jpg">
+        <h2>Nafila du jour</h2>
+        <p>{{nafila.Date}} 2016</p>
+      </div>
+
+      <a class="item item-divider  text-center calm" href="#">
+        <i class=" icon ion-ios-moon"></i>
+        <span > Nafilas : {{nafila.Rakas}} Raka(s)</span>
+        <i class="icon ion-star"></i>
+      </a>
+      <div class="item item-text-wrap text-center">
+        <h1>{{nafila.Sourates}}</h1>
+      </div>
+
+      <div class="item item-image">
+        <img src="img/allah.png">
+      </div>
+    </div>
+    <br>
+    <br>
+  </ion-content>
+</ion-view>
